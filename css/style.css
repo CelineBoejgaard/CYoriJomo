@@ -1,0 +1,60 @@
+.school-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 11px;
+  z-index: 1000;
+}
+
+.hero {
+  background-image: url("../img/womanonsofa.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.middle {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.grid_1-3 {
+  display: block;
+}
+
+.bottom {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .grid_1-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .belt {
+    width: 50%;
+  }
+}

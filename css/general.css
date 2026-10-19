@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+section {
+  padding-bottom: 50px;
+}
+h3 {
+  font-family: jost, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 10px 0px 10px 0px;
+}
+h4 {
+  font-family: jost, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 10px 0px 10px 0px;
+}
+p {
+  font-family: jost, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+}
